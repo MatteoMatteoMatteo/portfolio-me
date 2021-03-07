@@ -1,0 +1,43 @@
+.mainContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topHeadline {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--bg);
+  border-radius: 5px 5px 0px 0px;
+  color: var(--prim);
+  margin-bottom: 60px;
+}
+
+.backHeadline {
+  position: absolute;
+  text-align: center;
+  background-color: var(--prim);
+  color: white;
+  width: 100%;
+  height: 7%;
+  top: 70px;
+  left: 0;
+  z-index: 2;
+  animation: move 1s ease-in-out 1s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(5px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}

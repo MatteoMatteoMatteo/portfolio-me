@@ -1,0 +1,104 @@
+.video-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 100%;
+  width: 380px;
+
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 60px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+  border: solid 4px white;
+  border-radius: 5px 5px 10px 10px;
+  height: 222px;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoAndDesc {
+  display: flex;
+  width: 900px;
+  /* border: solid 3px red; */
+  justify-content: center;
+  gap: 40px;
+}
+
+.videoDesc {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 30px;
+}
+
+.videoDescItem {
+  padding: 20px;
+  width: 100%;
+  height: 222px;
+  border-radius: 5px 5px 10px 10px;
+  border: solid 4px white;
+  transition: 100ms;
+  background-color: var(--navFoot);
+}
+
+.videoDescItem1 {
+  padding: 20px;
+  width: 100%;
+  height: 222px;
+  border-radius: 5px 5px 10px 10px;
+  border: solid 4px white;
+  transition: 100ms;
+  background-color: transparent;
+}
+
+.videoDescItem:hover {
+  background-color: transparent;
+  transition: 100ms;
+}
+
+.videoText {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .videoDesc {
+    display: none;
+  }
+  .videoAndDesc {
+    width: 100%;
+    display: block;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+    border: solid 4px white;
+    border-radius: 5px 5px 10px 10px;
+    height: auto;
+  }
+
+  .video-container-wrapper {
+    padding: 0px 20px;
+  }
+}
