@@ -12,9 +12,8 @@ export default function music() {
       <Headline headline={'Music'}>
         <h1 style={{ padding: '0px 20px' }}>take a listen on Youtube or Spotify</h1>
         <p className='beats'>
-          Almost 10 years ago I made my first beat in a music program on a computer. Since then I
-          was hooked and tried out different genres and styles, making music for myself, movies and
-          games.
+          Almost 10 years ago, I made my first beat in a music program on a computer. Since then, I
+          have been hooked and tried out different genres and styles.
         </p>
 
         <div class='video-container-wrapper-music'>
