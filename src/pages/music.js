@@ -2,12 +2,14 @@ import React from 'react';
 import Headline from '../components/Headline';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
+import SEO from '../components/seo';
 import Spotify from '../images/spotify.svg';
 import './music.css';
 
 export default function music() {
   return (
     <Layout>
+      <SEO></SEO>
       <Navbar></Navbar>
       <Headline headline={'Music'}>
         <h1 style={{ padding: '0px 20px' }}>take a listen on Youtube or Spotify</h1>

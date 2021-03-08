@@ -9,10 +9,12 @@ import MoveAndWork from '../images/webMoveAndWork.png';
 import Tapescape from '../images/tapescapeBig.png';
 import './apps.css';
 import ContentLayout from '../components/ContentLayout';
+import SEO from '../components/seo';
 
 export default function apps() {
   return (
     <Layout>
+      <SEO></SEO>
       <Navbar></Navbar>
       <Headline headline={'Apps'}>
         <ContentLayout>

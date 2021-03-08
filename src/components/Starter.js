@@ -36,7 +36,8 @@ export default function HomeComp() {
             bgColor={'rgb(173, 203, 233)'}
             header={'PolarJam'}
             desc={'Make music with people around the world without worrying about latency'}
-            img={Polarjam}></Card>
+            img={Polarjam}
+            alt={'Make music with people around the world without worrying about latency'}></Card>
         </Link>
 
         <Link to='/apps'>
@@ -44,7 +45,8 @@ export default function HomeComp() {
             bgColor={'#444c49'}
             header={'TapeScape'}
             desc={'Experience a journey through a world that is controlled by music'}
-            img={Tapescape}></Card>
+            img={Tapescape}
+            alt={'Experience a journey through a world that is controlled by music'}></Card>
         </Link>
 
         <Link to='/music'>
@@ -52,7 +54,8 @@ export default function HomeComp() {
             bgColor={'#1f2833'}
             header={'Canvai'}
             desc={`Electro, House, Chill\nMusic on Youtube & Spotify`}
-            img={Canvai}></Card>
+            img={Canvai}
+            alt={'Electro, House, Chill\nMusic on Youtube & Spotify'}></Card>
         </Link>
       </div>
     </>

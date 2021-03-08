@@ -6,10 +6,12 @@ import WebCard from '../components/WebCard';
 import Tapescape from '../images/tapescapeBig.png';
 import './games.css';
 import ContentLayout from '../components/ContentLayout';
+import SEO from '../components/seo';
 
 export default function games() {
   return (
     <Layout>
+      <SEO></SEO>
       <Navbar></Navbar>
       <Headline headline={'Games'}>
         <ContentLayout>
