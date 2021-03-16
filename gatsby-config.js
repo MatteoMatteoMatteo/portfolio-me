@@ -10,11 +10,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: ``,
-        short_name: '',
+        name: `Blume`,
+        short_name: 'Klume',
         start_url: `/`,
         background_color: `#88bdbc`,
-        theme_color: `#88bdbc`,
+        theme_color: `#FFE578`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
