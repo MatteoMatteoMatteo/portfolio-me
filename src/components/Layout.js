@@ -1,6 +1,6 @@
-import React from "react"
-import { css } from "@emotion/react"
-import Footer from "./Footer"
+import React from 'react';
+import { css } from '@emotion/react';
+import Footer from './Footer';
 
 export default function Layout({ children }) {
   return (
@@ -13,17 +13,16 @@ export default function Layout({ children }) {
         // &:hover {
         //   border: 2px solid black;
         // }
-      `}
-    >
+      `}>
       <div
         css={css`
           padding-bottom: 5rem;
-        `}
-      >
+        `}>
         {children}
-        <div style={{ marginBottom: "100px" }}></div>
-        <Footer></Footer>
+        <div style={{ marginBottom: '100px' }}></div>
       </div>
+
+      <Footer></Footer>
     </div>
-  )
+  );
 }
