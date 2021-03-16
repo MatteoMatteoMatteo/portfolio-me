@@ -11,10 +11,7 @@
 
 .contactLink {
   color: white;
-  cursor: pointer;
   font-size: 1.2rem;
 }
 
-.contactLink:hover {
-  color: var(--bg);
-}
+

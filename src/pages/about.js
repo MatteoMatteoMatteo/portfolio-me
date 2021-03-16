@@ -2,11 +2,11 @@ import React from 'react';
 import Headline from '../components/Headline';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
-import './contact.css';
+import './about.css';
 import ContentLayout from '../components/ContentLayout';
 import SEO from '../components/seo';
 
-export default function contact() {
+export default function about() {
   return (
     <Layout>
       <SEO></SEO>
@@ -21,7 +21,7 @@ export default function contact() {
             </h3>
             <h3 style={{ fontSize: '1.4rem' }}>
               Other than that I like to work on little projects that I share here. <br></br>If you
-              have any question or just want to chat, hit me up!
+              have any question or just want to chat, send me a message!
             </h3>
             <h3 style={{ fontSize: '1.4rem' }}>m.prock@outlook.com</h3>
           </div>
