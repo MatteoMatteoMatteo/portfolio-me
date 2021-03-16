@@ -68,7 +68,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -138,4 +138,4 @@
     color: #242424;
     transition: 250ms;
   }
-}
+} */
