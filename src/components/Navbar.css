@@ -93,14 +93,17 @@
   .nav-links {
     text-align: center;
     padding: 2rem;
-    width: 100%;
+    width: 60%;
     display: table;
+    margin: auto;
+    margin-top:20px;
+    border-bottom: dotted 2px white;
   }
 
   .nav-links:hover {
-    background-color: var(--bg);
     border-radius: 0;
     color: white;
+    border-bottom: 2px var(--bg) solid;
   }
 
   .navbar-logo {
@@ -130,13 +133,8 @@
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
-    border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
 
-  .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
-    transition: 250ms;
-  }
+
 }

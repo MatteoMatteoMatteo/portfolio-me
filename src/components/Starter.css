@@ -11,6 +11,7 @@ video {
   width: 700px;
   color: var(--prim);
   text-align: center;
+  margin:auto;
 }
 
 .andIMake {

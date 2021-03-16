@@ -11,8 +11,8 @@ export default function Home() {
     <Layout>
       <SEO></SEO>
       <Navbar></Navbar>
+      <Headline headline={'Hello There'} />
       <ContentLayout>
-        <Headline headline={'Hello There'} />
         <Starter></Starter>
       </ContentLayout>
     </Layout>
