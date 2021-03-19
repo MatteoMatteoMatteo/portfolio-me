@@ -20,21 +20,21 @@ export default function apps() {
         <ContentLayout>
           <h1>creative and interactive</h1>
           <div className='webProjectsHolder'>
-            <a target='blank' href='https://polarjam.com'>
+            <a target='blank' href='https://songcolor.com'>
               <WebCard
-                bgColor={'rgb(173, 203, 233)'}
-                header={'PolarJam'}
+                bgColor={'#2898d4'}
+                header={'SongColor'}
                 alt='polarJam'
-                desc={'Make music with people around the world without worrying about latency'}
+                desc={'Restructure songs by changing audio loops and experiment with sound'}
                 img={Polarjam}
-                tech={'React, Tone.js, Socket.io'}
+                tech={'React, Tone.js'}
                 portfolio={false}
                 techColor='white'></WebCard>
             </a>
             <a target='blank' href='https://onlydrops.com'>
               <WebCard
                 alt='onlyDrops'
-                bgColor={'#90d1db'}
+                bgColor={'transparent'}
                 header={'OnlyDrops'}
                 desc={'A platform to discover and share the best drops'}
                 img={OnlyDrops}
@@ -56,7 +56,7 @@ export default function apps() {
             <a target='blank' href='https://moveand.work'>
               <WebCard
                 alt='moveAndWork'
-                bgColor={'#7f8b4c'}
+                bgColor={'#15846c'}
                 header={'Move & Work'}
                 desc={'An hourly reminder to strech and move while you are working'}
                 img={MoveAndWork}

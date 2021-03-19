@@ -33,9 +33,9 @@ export default function HomeComp() {
       <div className='takeALook'>
         <Link to='/apps'>
           <Card
-            bgColor={'rgb(173, 203, 233)'}
-            header={'PolarJam'}
-            desc={'Make music with people around the world without worrying about latency'}
+            bgColor={'#2898d4'}
+            header={'SongColor'}
+            desc={'Restructure songs by changing audio loops and experiment with sound'}
             img={Polarjam}
             alt={'Make music with people around the world without worrying about latency'}></Card>
         </Link>
