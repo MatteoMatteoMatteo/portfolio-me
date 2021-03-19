@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Card from './Card';
-import Polarjam from '../images/webPolarJam.png';
-import Tapescape from '../images/tape.png';
-import Canvai from '../images/canvai.png';
+import Polarjam from '../images/webPolarJam.jpg';
+import Tapescape from '../images/tape.jpg';
+import Canvai from '../images/canvai.jpg';
 import './Starter.css';
 
 export default function HomeComp() {
