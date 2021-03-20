@@ -57,6 +57,11 @@ video {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.lastElement {
+  margin-right: 0px;
 }
 
 .cardFirst {
@@ -87,5 +92,9 @@ video {
 
   .andIMakeLeft {
     margin-top: 10px;
+  }
+
+  .cardFirst {
+    margin-right: 0px;
   }
 }
