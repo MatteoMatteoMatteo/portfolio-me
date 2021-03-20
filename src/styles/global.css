@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,400&display=swap');
 
 :root {
   --bg: #88bdbc;
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 300;
 }
 
@@ -51,4 +51,8 @@ h6 {
 }
 h2 {
   text-decoration: underline;
+}
+
+.lastElement {
+  margin-right: 0px;
 }

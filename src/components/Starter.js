@@ -25,13 +25,13 @@ export default function HomeComp() {
           </Link>
 
           <Link to='/music' style={{ textDecoration: 'none', color: 'white' }}>
-            <div className={'andIMakeLeft move1'}>Music</div>
+            <div className={'andIMakeLeft move1 lastElement'}>Music</div>
           </Link>
         </div>
         <h1 className='takeA'>Take a look:</h1>
       </div>
       <div className='takeALook'>
-        <Link to='/apps'>
+        <Link to='/apps' className='cardFirst'>
           <Card
             bgColor={'#2898d4'}
             header={'SongColor'}
@@ -40,7 +40,7 @@ export default function HomeComp() {
             alt={'Make music with people around the world without worrying about latency'}></Card>
         </Link>
 
-        <Link to='/apps'>
+        <Link to='/apps' className='cardFirst'>
           <Card
             bgColor={'#444c49'}
             header={'TapeScape'}
@@ -49,7 +49,7 @@ export default function HomeComp() {
             alt={'Experience a journey through a world that is controlled by music'}></Card>
         </Link>
 
-        <Link to='/music'>
+        <Link to='/music' className='cardFirst lastElement'>
           <Card
             bgColor={'#1f2833'}
             header={'Canvai'}

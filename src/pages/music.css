@@ -1,7 +1,6 @@
 .video-container-wrapper-music {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: center;
   max-width: 100%;
   width: 420px;
@@ -19,6 +18,7 @@
   overflow: hidden;
   border: solid 4px white;
   border-radius: 5px 5px 10px 10px;
+  margin-bottom: 30px;
 }
 .video-container-music iframe,
 .video-container-music object,
@@ -38,7 +38,6 @@
   align-items: center;
   background-color: var(--navFoot);
   justify-content: center;
-  gap: 30px;
   transition: 200ms;
   border-radius: 5px 5px 10px 10px;
 }

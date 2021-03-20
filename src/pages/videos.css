@@ -1,11 +1,9 @@
 .video-container-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: center;
   max-width: 100%;
   width: 380px;
-
   left: 0;
   right: 0;
   margin: auto;
@@ -20,6 +18,7 @@
   border: solid 4px white;
   border-radius: 5px 5px 10px 10px;
   height: 222px;
+  margin-bottom: 30px;
 }
 .video-container iframe,
 .video-container object,
@@ -36,7 +35,6 @@
   width: 900px;
   /* border: solid 3px red; */
   justify-content: center;
-  gap: 40px;
 }
 
 .videoDesc {
@@ -44,7 +42,7 @@
   display: flex;
   flex-direction: column;
   width: 300px;
-  gap: 30px;
+  margin-left: 30px;
 }
 
 .videoDescItem {
@@ -55,6 +53,7 @@
   border: solid 4px white;
   transition: 100ms;
   background-color: var(--navFoot);
+  margin-bottom: 30px;
 }
 
 .videoDescItem1 {

@@ -8,7 +8,7 @@
   border-bottom: solid 2px white;
   align-items: center;
   justify-content: space-between;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar-logo {
@@ -32,7 +32,6 @@
   height: 100%;
   display: grid;
   grid-template-columns: repeat(5, auto);
-  grid-gap: 20px;
   list-style: none;
   text-align: center;
   justify-content: end;
@@ -96,8 +95,8 @@
     width: 60%;
     display: table;
     margin: auto;
-    margin-top:20px;
-    border-bottom: dotted 2px white;
+    margin-top: 20px;
+    border-bottom: solid 2px white;
   }
 
   .nav-links:hover {
@@ -108,7 +107,7 @@
 
   .navbar-logo {
     position: absolute;
-    right: 6%;
+    left: 6%;
     margin-left: 0px;
     font-size: 1.3rem;
   }
@@ -118,7 +117,7 @@
     color: white;
     display: block;
     position: absolute;
-    left: 6%;
+    right: 6%;
     font-size: 1.3rem;
     cursor: pointer;
   }
@@ -135,6 +134,4 @@
     padding: 14px 20px;
     transition: all 0.3s ease-out;
   }
-
-
 }

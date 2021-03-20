@@ -20,7 +20,7 @@ export default function apps() {
         <ContentLayout>
           <h1>creative and interactive</h1>
           <div className='webProjectsHolder'>
-            <a target='blank' href='https://songcolor.com'>
+            <a className='webCard' target='blank' href='https://songcolor.com'>
               <WebCard
                 bgColor={'#2898d4'}
                 header={'SongColor'}
@@ -31,7 +31,7 @@ export default function apps() {
                 portfolio={false}
                 techColor='white'></WebCard>
             </a>
-            <a target='blank' href='https://onlydrops.com'>
+            <a className='webCard' target='blank' href='https://onlydrops.com'>
               <WebCard
                 alt='onlyDrops'
                 bgColor={'#a46260'}
@@ -43,7 +43,7 @@ export default function apps() {
                 techColor='white'></WebCard>
             </a>
 
-            <a target='blank' href='https://moveand.work'>
+            <a className='webCard' target='blank' href='https://moveand.work'>
               <WebCard
                 alt='moveAndWork'
                 bgColor='linear-gradient(to right, #155799, #159957)'
@@ -54,7 +54,10 @@ export default function apps() {
                 tech={'React'}
                 techColor='white'></WebCard>
             </a>
-            <a target='blank' href='https://mortenblaa.itch.io/tapescape'>
+            <a
+              className='webCard lastElement'
+              target='blank'
+              href='https://mortenblaa.itch.io/tapescape'>
               <WebCard
                 alt='tapescape'
                 bgColor={'#063346'}

@@ -14,16 +14,18 @@ export default function about() {
       <Headline headline={'Me'}>
         <ContentLayout>
           <div className='contactHolder'>
-            <h3 style={{ fontSize: '1.4rem' }}>
+            <h3 style={{ fontSize: '1.4rem' }} className='aboutHolder'>
               After my studies in Innsbruck at the Medienkolleg and the MCI, I'm currently finishing
               my Master's Degree in Interactive Media at the University of Applied Sciences Upper
               Austria.
             </h3>
-            <h3 style={{ fontSize: '1.4rem' }}>
+            <h3 style={{ fontSize: '1.4rem' }} className='aboutHolder'>
               Other than that I like to work on little projects that I share here. <br></br>If you
               have any question or just want to chat, send me a message!
             </h3>
-            <h3 style={{ fontSize: '1.4rem' }}>m.prock@outlook.com</h3>
+            <h3 style={{ fontSize: '1.4rem' }} className='aboutHolder lastAbout'>
+              m.prock@outlook.com
+            </h3>
           </div>
         </ContentLayout>
       </Headline>
