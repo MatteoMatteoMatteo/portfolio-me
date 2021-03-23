@@ -20,8 +20,8 @@ export default function about() {
               Austria.
             </h3>
             <h3 style={{ fontSize: '1.4rem' }} className='aboutHolder'>
-              Other than that I like to work on little projects that I share here. <br></br>If you
-              have any question or just want to chat, send me a message!
+              Other than that I like to work on projects that I share here. <br></br>If you have any
+              question or just want to chat, send me a message!
             </h3>
             <h3 style={{ fontSize: '1.4rem' }} className='aboutHolder lastAbout'>
               m.prock@outlook.com

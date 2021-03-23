@@ -19,17 +19,22 @@ video {
 }
 
 .genres {
-  padding: 20px 0px;
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.andIMakeLeft {
+  margin: auto;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  max-width: 500px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.andIMakeLeft {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80px;
   font-weight: bold;
   height: 80px;
@@ -39,7 +44,6 @@ video {
   border-radius: 80px 80px 80px 80px;
   transition: 100ms ease-in-out;
   font-family: 'Raleway', sans-serif;
-  margin-right: 40px;
 }
 
 .andIMakeLeft:hover {
@@ -66,6 +70,7 @@ video {
 
 .cardFirst {
   margin-right: 30px;
+  margin-left: 30px;
 }
 
 @keyframes moveNow {
@@ -90,11 +95,6 @@ video {
     width: 100%;
   }
 
-  .andIMakeLeft {
-    margin-top: 10px;
-  }
-
   .cardFirst {
-    margin-right: 0px;
   }
 }

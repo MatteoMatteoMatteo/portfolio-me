@@ -34,9 +34,9 @@ export default function apps() {
             <a className='webCard' target='blank' href='https://onlydrops.com'>
               <WebCard
                 alt='onlyDrops'
-                bgColor={'#a46260'}
+                bgColor={'#1f2833'}
                 header={'OnlyDrops'}
-                desc={'A platform to discover and share the best drops'}
+                desc={'A platform to discover and share the best beat drops'}
                 img={OnlyDrops}
                 tech={'Angular, Firebase'}
                 portfolio={false}

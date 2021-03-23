@@ -89,20 +89,24 @@
     z-index: 1;
   }
 
+  .nav-item {
+    height: 100px;
+  }
+
   .nav-links {
+    display: flex;
+    align-items: center;
     text-align: center;
-    padding: 2rem;
+    justify-content: center;
     width: 60%;
-    display: table;
     margin: auto;
-    margin-top: 20px;
     border-bottom: solid 2px white;
   }
 
   .nav-links:hover {
     border-radius: 0;
     color: white;
-    border-bottom: 2px var(--bg) solid;
+    background-color: var(--bg);
   }
 
   .navbar-logo {
@@ -120,18 +124,5 @@
     right: 6%;
     font-size: 1.3rem;
     cursor: pointer;
-  }
-
-  .nav-links-mobile {
-    display: block;
-    text-align: center;
-    margin: 2rem auto;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: #fff;
-    padding: 14px 20px;
-    transition: all 0.3s ease-out;
   }
 }

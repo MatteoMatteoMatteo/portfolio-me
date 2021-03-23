@@ -18,14 +18,14 @@ export default function HomeComp() {
         <h1 className={'andIMake'}>and I make</h1>
         <div className='genres'>
           <Link to='/apps' style={{ textDecoration: 'none', color: 'white' }}>
-            <div className={'andIMakeLeft move1'}>Apps</div>
+            <div className={'andIMakeLeft '}>Apps</div>
           </Link>
           <Link to='/videos' style={{ textDecoration: 'none', color: 'white' }}>
-            <div className={'andIMakeLeft move2'}>Videos</div>
+            <div className={'andIMakeLeft '}>Videos</div>
           </Link>
 
           <Link to='/music' style={{ textDecoration: 'none', color: 'white' }}>
-            <div className={'andIMakeLeft move1 lastElement'}>Music</div>
+            <div className={'andIMakeLeft  '}>Music</div>
           </Link>
         </div>
         <h1 className='takeA'>Take a look:</h1>
