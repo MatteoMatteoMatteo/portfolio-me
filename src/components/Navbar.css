@@ -1,14 +1,19 @@
 .navbar {
   background: var(--navFoot);
   height: 80px;
-  display: flex;
-  font-size: 1.2rem;
   position: sticky;
   z-index: 999;
   border-bottom: solid 2px white;
+}
+
+.navbarWrapper {
+  margin: auto;
+  display: flex;
+  font-size: 1.2rem;
   align-items: center;
   justify-content: space-between;
   font-family: 'Raleway', sans-serif;
+  max-width: 1920px;
 }
 
 .navbar-logo {

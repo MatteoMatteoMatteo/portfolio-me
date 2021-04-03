@@ -40,7 +40,7 @@ export default function HomeComp() {
             alt={'Make music with people around the world without worrying about latency'}></Card>
         </Link>
 
-        <Link to='/apps' className='cardFirst'>
+        <Link to='/games' className='cardFirst'>
           <Card
             bgColor={'#444c49'}
             header={'TapeScape'}

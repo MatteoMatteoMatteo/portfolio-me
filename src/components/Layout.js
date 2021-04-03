@@ -7,7 +7,6 @@ export default function Layout({ children }) {
     <div
       css={css`
         margin: auto;
-        max-width: 1920px;
         position: relative;
         min-height: 100vh;
         // &:hover {

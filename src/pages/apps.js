@@ -16,7 +16,7 @@ export default function apps() {
     <Layout>
       <SEO></SEO>
       <Navbar></Navbar>
-      <Headline headline={'Apps'}>
+      <Headline headline={'Web Apps'}>
         <ContentLayout>
           <h1>creative and interactive</h1>
           <div className='webProjectsHolder'>
@@ -53,20 +53,6 @@ export default function apps() {
                 portfolio={false}
                 tech={'React'}
                 techColor='white'></WebCard>
-            </a>
-            <a
-              className='webCard lastElement'
-              target='blank'
-              href='https://mortenblaa.itch.io/tapescape'>
-              <WebCard
-                alt='tapescape'
-                bgColor={'#063346'}
-                header={'Tapescape'}
-                desc={'Experience a journey through a world that is controlled by music'}
-                img={Tapescape}
-                tech={'Unity'}
-                techColor='white'
-                portfolio={false}></WebCard>
             </a>
           </div>
         </ContentLayout>
