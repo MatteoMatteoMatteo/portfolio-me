@@ -44,6 +44,7 @@ video {
   border-radius: 80px 80px 80px 80px;
   transition: 100ms ease-in-out;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
 }
 
 .andIMakeLeft:hover {

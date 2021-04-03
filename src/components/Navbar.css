@@ -9,6 +9,7 @@
 .navbarWrapper {
   margin: auto;
   display: flex;
+  height: 100%;
   font-size: 1.2rem;
   align-items: center;
   justify-content: space-between;
