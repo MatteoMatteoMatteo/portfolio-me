@@ -49,7 +49,7 @@ export default function games() {
                 color={'white'}
                 desc={'A mobile game where you score goals in a creative way'}
                 img={GoalRunner}
-                tech={'Unity (In the making)'}
+                tech={'(In the making) Unity'}
                 techColor={'white'}
                 portfolio={false}></WebCard>
             </a>
