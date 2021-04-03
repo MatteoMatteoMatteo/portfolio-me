@@ -23,7 +23,7 @@ export default function games() {
               <WebCard
                 bgColor={'#241938'}
                 header={'Tapescape'}
-                desc={'A short jounrney where the world is controlled by music'}
+                desc={'A short journey where the world is controlled by music'}
                 img={Tapescape}
                 tech={'Unity'}
                 techColor={'white'}
