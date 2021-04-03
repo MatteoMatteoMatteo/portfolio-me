@@ -23,7 +23,7 @@ export default function games() {
               <WebCard
                 bgColor={'#241938'}
                 header={'Tapescape'}
-                desc={'A short journey where the world is controlled by music'}
+                desc={'A journey through a world that is controlled by music'}
                 img={Tapescape}
                 tech={'Unity'}
                 techColor={'white'}
@@ -47,7 +47,7 @@ export default function games() {
                 bgColor={'#8694a5'}
                 header={'Goal Runner'}
                 color={'white'}
-                desc={'A mobile game where you score goals in a creative way'}
+                desc={'A mobile game where you chase balls and score goals'}
                 img={GoalRunner}
                 tech={'(In the making) Unity'}
                 techColor={'white'}

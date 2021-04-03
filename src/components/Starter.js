@@ -15,7 +15,7 @@ export default function HomeComp() {
 
       <div className='header2'>
         <h1>My name is Matteo</h1>
-        <h1 className={'andIMake'}>and I make</h1>
+        <h1>and I make</h1>
         <div className='genres'>
           <Link to='/apps' style={{ textDecoration: 'none', color: 'white' }}>
             <div className={'andIMakeLeft '}>Web</div>
