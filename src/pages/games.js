@@ -3,8 +3,9 @@ import Headline from '../components/Headline';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import WebCard from '../components/WebCard';
-import Tapescape from '../images/tapescapeBig.png';
-import FlyGuy from '../images/flyGuyWeb.jpg';
+import Tapescape from '../images/tapeScape.gif';
+import Panda from '../images/panda.gif';
+import GoalRunner from '../images/goalRunner.gif';
 import './games.css';
 import ContentLayout from '../components/ContentLayout';
 import SEO from '../components/seo';
@@ -20,7 +21,7 @@ export default function games() {
           <div className='gamesProjectsHolder'>
             <a target='blank' href='https://mortenblaa.itch.io/tapescape'>
               <WebCard
-                bgColor={'#063346'}
+                bgColor={'#241938'}
                 header={'Tapescape'}
                 desc={'A short jounrney where the world is controlled by music'}
                 img={Tapescape}
@@ -31,28 +32,25 @@ export default function games() {
 
             <a style={{ marginTop: '30px' }}>
               <WebCard
-                bgColor={'#92A332'}
-                header={'Goal Runner'}
+                bgColor={'#94dae8'}
+                header={'Pandamania'}
                 color={'white'}
-                desc={'A mobile game where you need to score goals in a creative way'}
-                img={FlyGuy}
+                desc={'Grab your friends and work together in this panda puzzle platformer'}
+                img={Panda}
                 tech={'Unity'}
                 techColor={'white'}
                 portfolio={false}></WebCard>
             </a>
 
-            <a
-              target='blank'
-              href='https://confident-jepsen-fc4ca9.netlify.app/'
-              style={{ marginTop: '30px' }}>
+            <a style={{ marginTop: '30px' }}>
               <WebCard
-                bgColor={'#f4db7d'}
-                header={'Fly Guy'}
-                color={'black'}
-                desc={'A tiny Browser game optimized for Google Chrome!'}
-                img={FlyGuy}
-                tech={'HTML Canvas'}
-                techColor={'black'}
+                bgColor={'#8694a5'}
+                header={'Goal Runner'}
+                color={'white'}
+                desc={'A mobile game where you score goals in a creative way'}
+                img={GoalRunner}
+                tech={'Unity (In the making)'}
+                techColor={'white'}
                 portfolio={false}></WebCard>
             </a>
           </div>
