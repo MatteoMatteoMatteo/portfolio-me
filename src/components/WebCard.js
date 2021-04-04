@@ -11,6 +11,7 @@ export default function WebCard({
   portfolio,
   alt,
   techColor,
+  zusatz,
 }) {
   return portfolio ? null : (
     <div className='webCardContainer' style={{ color: color ? color : null }}>
@@ -27,6 +28,7 @@ export default function WebCard({
         <p style={{ color: techColor ? techColor : null }} className={'webItemDesc tech'}>
           {tech}
         </p>
+        <p style={{ fontSize: '0.7rem' }}>{zusatz} </p>
       </div>
     </div>
   );

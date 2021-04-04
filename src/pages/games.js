@@ -32,7 +32,7 @@ export default function games() {
 
             <a style={{ marginTop: '30px' }}>
               <WebCard
-                bgColor={'#94dae8'}
+                bgColor={'#a17f64'}
                 header={'Pandamania'}
                 color={'white'}
                 desc={'Grab your friends and work together in this panda puzzle platformer'}
@@ -47,10 +47,11 @@ export default function games() {
                 bgColor={'#8694a5'}
                 header={'Goal Runner'}
                 color={'white'}
-                desc={'A mobile game where you chase balls and score goals'}
+                desc={'A mobile game to chase balls and score goals'}
                 img={GoalRunner}
-                tech={'(In the making) Unity'}
+                tech={'Unity'}
                 techColor={'white'}
+                zusatz={'(in the making)'}
                 portfolio={false}></WebCard>
             </a>
           </div>
