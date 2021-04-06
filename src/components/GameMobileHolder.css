@@ -1,0 +1,31 @@
+.gameHolder {
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid 3px white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.gameGifHolder {
+  width: 100%;
+  height: auto;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.gif {
+  width: 100%;
+  height: auto;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.gameInfoHolder {
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+}

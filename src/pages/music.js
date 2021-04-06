@@ -49,7 +49,7 @@ export default function music() {
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
               allowfullscreen></iframe>
           </div>
-          <a target='blank' href='https://open.spotify.com/album/4wkOxGefMQbCpuvW0tM9jL'>
+          <a target='blank' href='https://open.spotify.com/artist/0WEzvWCA6Xw840ntIhahni'>
             <div className='iconHolder'>
               <h2 style={{ color: 'white', marginRight: '33px' }}>Spotify</h2>
               <img className='spotify' src={Spotify} alt='Spotify Icon'></img>
