@@ -54,7 +54,7 @@ export default function games() {
               img={GoalRunner}
               tech={'Unity'}
               techColor={'white'}
-              zusatz={'(in the making)'}
+              zusatz={'(in development)'}
               portfolio={false}></WebCard>
           </a>
         </div>
