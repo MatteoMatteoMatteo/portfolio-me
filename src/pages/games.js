@@ -30,7 +30,7 @@ export default function games() {
               portfolio={false}></WebCard>
           </a>
 
-          <a
+          {/* <a
             target='blank'
             href='https://matteomatteomatteo.itch.io/pandamania'
             style={{ marginTop: '30px' }}>
@@ -43,7 +43,7 @@ export default function games() {
               tech={'Unity'}
               techColor={'white'}
               portfolio={false}></WebCard>
-          </a>
+          </a> */}
 
           <a style={{ marginTop: '30px' }}>
             <WebCard
@@ -68,14 +68,14 @@ export default function games() {
               bgColor={'#241938'}></GameMobileHolder>
           </a>
 
-          <a href='https://matteomatteomatteo.itch.io/pandamania' target='blank'>
+          {/* <a href='https://matteomatteomatteo.itch.io/pandamania' target='blank'>
             <GameMobileHolder
               gif={Panda}
               title={'Pandamania'}
               text={'Grab your friends and work together in this panda puzzle platformer!'}
               tech={'Unity'}
               bgColor={'#a17f64'}></GameMobileHolder>
-          </a>
+          </a> */}
 
           <GameMobileHolder
             gif={GoalRunner}
