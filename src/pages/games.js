@@ -50,7 +50,7 @@ export default function games() {
               bgColor={'#8694a5'}
               header={'Goal Runner'}
               color={'white'}
-              desc={'A mobile game to chase balls and score goals'}
+              desc={'A mobile car soccer game with different levels and challenges'}
               img={GoalRunner}
               tech={'Unity'}
               techColor={'white'}
@@ -80,7 +80,7 @@ export default function games() {
           <GameMobileHolder
             gif={GoalRunner}
             title={'Goal Runner'}
-            text={'A mobile game to score goals in a creative way!'}
+            text={'A mobile car soccer game with different levels and challenges'}
             tech={'Unity'}
             techInfo={'(in development)'}
             bgColor={'#8694a5'}></GameMobileHolder>
