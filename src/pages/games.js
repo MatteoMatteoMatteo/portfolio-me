@@ -23,7 +23,7 @@ export default function games() {
             <WebCard
               bgColor={'#241938'}
               header={'Tapescape'}
-              desc={'A journey through a world that is controlled by music'}
+              desc={'A short adventure that is controlled by music'}
               img={Tapescape}
               tech={'Unity'}
               techColor={'white'}
@@ -45,16 +45,19 @@ export default function games() {
               portfolio={false}></WebCard>
           </a> */}
 
-          <a style={{ marginTop: '30px' }}>
+          <a
+            style={{ marginTop: '30px' }}
+            target='blank'
+            href='https://matteomatteomatteo.itch.io/goal-runner-ar'>
             <WebCard
-              bgColor={'#8694a5'}
+              bgColor={'#00203f'}
               header={'Goal Runner'}
               color={'white'}
-              desc={'A mobile car soccer game with different levels and challenges'}
+              desc={'An Augmented Reality car soccer crossbar challenge'}
               img={GoalRunner}
               tech={'Unity'}
               techColor={'white'}
-              zusatz={'(in development)'}
+              zusatz={''}
               portfolio={false}></WebCard>
           </a>
         </div>
@@ -63,7 +66,7 @@ export default function games() {
             <GameMobileHolder
               gif={Tapescape}
               title={'Tapescape'}
-              text={'A journey through a world that is controlled by music'}
+              text={'A short adventure that is controlled by music'}
               tech={'Unity'}
               bgColor={'#241938'}></GameMobileHolder>
           </a>
@@ -76,14 +79,15 @@ export default function games() {
               tech={'Unity'}
               bgColor={'#a17f64'}></GameMobileHolder>
           </a> */}
-
-          <GameMobileHolder
-            gif={GoalRunner}
-            title={'Goal Runner'}
-            text={'A mobile car soccer game with different levels and challenges'}
-            tech={'Unity'}
-            techInfo={'(in development)'}
-            bgColor={'#8694a5'}></GameMobileHolder>
+          <a href='https://matteomatteomatteo.itch.io/goal-runner-ar' target='blank'>
+            <GameMobileHolder
+              gif={GoalRunner}
+              title={'Goal Runner'}
+              text={'An Augmented Reality car soccer crossbar challenge'}
+              tech={'Unity'}
+              techInfo={''}
+              bgColor={'#00203f'}></GameMobileHolder>
+          </a>
         </div>
       </Headline>
     </Layout>

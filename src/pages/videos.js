@@ -110,7 +110,7 @@ export default function videos() {
               <h2>p&p MultiTouch</h2>
               <p className='videoText'>
                 During my internship in the advertising agency "p&p marketing" my task was to plan
-                and realise a product video about their intuitive
+                and realize a product video about their intuitive
                 <br></br>
                 touch device.
               </p>
