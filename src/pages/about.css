@@ -7,6 +7,14 @@
   align-items: center;
 }
 
+.meImage {
+  max-width: 250px;
+
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
 .aboutHolder {
   margin-bottom: 30px;
 }

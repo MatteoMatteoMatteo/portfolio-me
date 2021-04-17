@@ -14,87 +14,87 @@ export default function videos() {
         <h1 style={{ padding: '0px 20px' }}>stories, trailers, events</h1>
         <div className='videoAndDesc'>
           <div>
-            <div class='video-container-wrapper'>
-              <div class='video-container'>
+            <div className='video-container-wrapper'>
+              <div className='video-container'>
                 <iframe
                   title='mark'
                   src='https://player.vimeo.com/video/129810374'
                   width='640'
                   height='360'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='autoplay; fullscreen; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
-              <div class='video-container'>
+              <div className='video-container'>
                 <iframe
                   title='pp multitouch'
                   src='https://player.vimeo.com/video/200031345'
                   width='560'
                   height='315'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='autoplay; fullscreen; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
-              <div class='video-container'>
+              <div className='video-container'>
                 <iframe
                   title='sommeruni'
                   width='560'
                   height='315'
                   src='https://www.youtube.com/embed/zfK2pyDSE8M'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
-              <div class='video-container'>
+              <div className='video-container'>
                 <iframe
                   title='micropia'
                   width='560'
                   height='315'
                   src='https://www.youtube.com/embed/ZxVbTRnolPg'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
-              <div class='video-container'>
+              <div className='video-container'>
                 <iframe
                   title='my sister'
                   width='560'
                   height='315'
                   src='https://www.youtube.com/embed/5zSn8rtCQ54'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
-              <div class='video-container'>
+              <div className='video-container'>
                 <iframe
                   title='salsa libre'
                   width='560'
                   height='315'
                   src='https://www.youtube.com/embed/rP4jyzU1ChM'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
-              <div class='video-container'>
+              <div className='video-container'>
                 <iframe
                   title='karriere'
                   width='560'
                   height='315'
                   src='https://www.youtube.com/embed/Xtea2ocNWqY'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
 
-              <div class='video-container lastElement'>
+              <div className='video-container lastElement'>
                 <iframe
                   title='the music in my head'
                   width='560'
                   height='315'
                   src='https://www.youtube.com/embed/9Qbg_YxkDDI'
-                  frameborder='0'
+                  frameBorder='0'
                   allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
               </div>
             </div>
           </div>

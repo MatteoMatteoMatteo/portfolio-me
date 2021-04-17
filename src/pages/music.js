@@ -25,9 +25,9 @@ export default function music() {
               width='360px'
               height='203px'
               src='https://www.youtube.com/embed/YV2X0JkhmWM'
-              frameborder='0'
+              frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-              allowfullscreen></iframe>
+              allowFullScreen></iframe>
           </div>
           <div class='video-container-music'>
             <iframe
@@ -35,9 +35,9 @@ export default function music() {
               width='360px'
               height='203px'
               src='https://www.youtube.com/embed/TrL_uG8fPU4'
-              frameborder='0'
+              frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-              allowfullscreen></iframe>
+              allowFullScreen></iframe>
           </div>
           <div class='video-container-music'>
             <iframe
@@ -45,9 +45,9 @@ export default function music() {
               width='560'
               height='315'
               src='https://www.youtube.com/embed/3PCNhdpNNSI'
-              frameborder='0'
+              frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-              allowfullscreen></iframe>
+              allowFullScreen></iframe>
           </div>
           <a target='blank' href='https://open.spotify.com/artist/0WEzvWCA6Xw840ntIhahni'>
             <div className='iconHolder'>
