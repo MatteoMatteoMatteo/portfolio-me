@@ -1,0 +1,68 @@
+.video-container-wrapper-music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  width: 420px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+.video-container-music {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+  border: solid 4px white;
+  border-radius: 5px 5px 10px 10px;
+  margin-bottom: 30px;
+}
+.video-container-music iframe,
+.video-container-music object,
+.video-container-music embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iconHolder {
+  border-top: 8px white solid;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: var(--navFoot);
+  justify-content: center;
+  transition: 200ms;
+  border-radius: 5px 5px 10px 10px;
+}
+
+.iconHolder:hover .spotify {
+  transform: scale(1.15);
+  transition: 200ms;
+}
+
+.spotify {
+  width: 20%;
+  transition: 200ms;
+}
+
+.beats {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 440px;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .video-container-wrapper-music {
+    margin-top: 40px;
+  }
+}

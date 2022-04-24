@@ -53,6 +53,11 @@ export default function Navbar() {
               Music
             </Link>
           </li>
+          {/* <li className='nav-item'>
+            <Link to='/ideas' className='nav-links' onClick={closeMobileMenu}>
+              Ideas
+            </Link>
+          </li> */}
           <li className='nav-item'>
             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
               About

@@ -1,0 +1,10 @@
+.cardContainerIdeas {
+  margin-top: 40px;
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: flex-start;
+  transition: 250ms ease;
+  cursor: pointer;
+  padding: 20px;
+}
