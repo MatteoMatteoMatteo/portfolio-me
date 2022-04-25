@@ -1,6 +1,7 @@
 .cardContainerIdeas {
   margin-top: 40px;
   display: flex;
+  flex-direction: column;
   color: white;
   text-align: center;
   justify-content: flex-start;

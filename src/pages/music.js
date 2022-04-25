@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Headline from '../components/Headline';
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import SEO from '../components/seo';
 import Spotify from '../images/spotify.svg';
+import { Link } from 'gatsby';
 import './music.css';
 
 export default function music() {
@@ -12,10 +13,14 @@ export default function music() {
       <SEO></SEO>
       <Navbar></Navbar>
       <Headline headline={'Music'}>
+        <Link to='/ideas' className='unreleased'>
+          <span>unfinished songs</span>
+        </Link>
+
         <h1 style={{ padding: '0px 20px' }}>take a listen on Youtube or Spotify</h1>
         <p className='beats'>
-          Almost 10 years ago, I made my first song in a music program on a computer. Since then, I
-          have been hooked and tried out different genres and styles.
+          10 years ago, I made my first song in a music program on a computer. All my released music
+          can be found on my youtube channel, here is a selection.
         </p>
 
         <div class='video-container-wrapper-music'>
