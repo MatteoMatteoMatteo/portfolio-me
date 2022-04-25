@@ -10,6 +10,20 @@
   margin-top: 50px;
   padding: 0px 20px;
 }
+
+.unreleased {
+  padding-bottom: 30px;
+  margin-top: -50px;
+  font-size: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.unreleased:hover {
+  transform: scale(1.1);
+  transition: 500ms ease;
+}
+
 .video-container-music {
   position: relative;
   padding-bottom: 56.25%;
