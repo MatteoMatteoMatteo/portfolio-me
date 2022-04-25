@@ -13,15 +13,10 @@
 
 .unreleased {
   padding-bottom: 30px;
-  margin-top: -50px;
+  margin-top: -40px;
   font-size: 10px;
   cursor: pointer;
   color: white;
-}
-
-.unreleased:hover {
-  transform: scale(1.1);
-  transition: 500ms ease;
 }
 
 .video-container-music {

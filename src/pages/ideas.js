@@ -9,11 +9,8 @@ import Song3 from '../songs/Canvai - Need To Know.mp3';
 import Song4 from '../songs/Canvai - Our Gods (Audio).mp3';
 import Song5 from '../songs/Canvai - PullTheTrigger.mp3';
 import Song6 from '../songs/Canvai - Right for me yeaaaa.mp3';
-import Song7 from '../songs/soMany5.mp3';
 import Song8 from '../songs/CanYouBeMyOwn.mp3';
 import Song9 from '../songs/FUn2.mp3';
-import Song10 from '../songs/FunSession.mp3';
-import Song11 from '../songs/GEILO2.mp3';
 import Song12 from '../songs/glock.mp3';
 import Song13 from '../songs/ItsAGuitarVibe.mp3';
 import Song14 from '../songs/jumpsnew.mp3';
@@ -25,7 +22,6 @@ import Song19 from '../songs/mountainCringe.mp3';
 import Song20 from '../songs/New_2022_V1.mp3';
 import Song21 from '../songs/New_2022_V2.mp3';
 import Song22 from '../songs/niceAlda.mp3';
-import Song23 from '../songs/Oberg3.mp3';
 import Song24 from '../songs/piniata2.mp3';
 import Song25 from '../songs/SinnnnnningInTheSnow.mp3';
 import Song26 from '../songs/soMany.mp3';
@@ -43,11 +39,10 @@ export default function ideas() {
     <Layout>
       <SEO></SEO>
       <Navbar></Navbar>
-      <Headline headline={'Unfinished Music'}>
-        <h1 style={{ padding: '0px 20px' }}>song graveyard</h1>
-        <p className='beats'>
-          Dead but not forgotten! Enjoy unmixed music & creative project file names.
-          <br></br>
+      <Headline headline={'Unfinished Ideas'}>
+        <p className='beats' style={{ marginTop: '-30px', marginBottom: '20px' }}>
+          Dead but not forgotten - the song graveyard. <br></br>Enjoy unmixed music & creative
+          project file names.
         </p>
         <IdeasCard header={'Need to know'} song={Song3}></IdeasCard>
         <IdeasCard header={'Dropless'} song={Song29}></IdeasCard>

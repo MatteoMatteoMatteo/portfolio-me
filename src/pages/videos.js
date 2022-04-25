@@ -15,7 +15,7 @@ export default function videos() {
         <div className='videoAndDesc'>
           <div>
             <div className='video-container-wrapper'>
-              <div className='video-container'>
+              {/* <div className='video-container'>
                 <iframe
                   title='mark'
                   src='https://player.vimeo.com/video/129810374'
@@ -24,7 +24,7 @@ export default function videos() {
                   frameBorder='0'
                   allow='autoplay; fullscreen; picture-in-picture'
                   allowFullScreen></iframe>
-              </div>
+              </div> */}
               <div className='video-container'>
                 <iframe
                   title='pp multitouch'
@@ -99,13 +99,13 @@ export default function videos() {
             </div>
           </div>
           <div className='videoDesc'>
-            <div className='videoDescItem'>
+            {/* <div className='videoDescItem'>
               <h2>Kirchentag Stuttgart</h2>
               <p className='videoText'>
                 A TV report for the evangelical church congress in Stuttgart. During the internship
                 we filmed and interviewed many visitors and politicians for TV and Web.
               </p>
-            </div>
+            </div> */}
             <div className='videoDescItem'>
               <h2>p&p MultiTouch</h2>
               <p className='videoText'>
