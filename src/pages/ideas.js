@@ -69,7 +69,7 @@ export default function ideas() {
         <IdeasCard header={'SinnnnnningInTheSnow'} song={Song25}></IdeasCard>
         <IdeasCard header={'soMany'} song={Song26}></IdeasCard>
         <IdeasCard header={'ourGods'} song={Song4}></IdeasCard>
-        <IdeasCard header={'PullTheTrigger'} song={Song31}></IdeasCard>
+        <IdeasCard header={'Sing!'} song={Song31}></IdeasCard>
         <IdeasCard header={'FUn2'} song={Song9}></IdeasCard>
       </Headline>
     </Layout>
