@@ -20,7 +20,7 @@ export default function apps() {
         <ContentLayout>
           <h1>creative and interactive</h1>
           <div className='webProjectsHolder'>
-            <a className='webCard' target='blank' href='https://songcolor.com'>
+            <a className='webCard' target='blank' href='sad-bardeen-282cfb.netlify.app'>
               <WebCard
                 bgColor={'#2898d4'}
                 header={'SongColor'}
@@ -31,7 +31,7 @@ export default function apps() {
                 portfolio={false}
                 techColor='white'></WebCard>
             </a>
-            <a className='webCard' target='blank' href='https://onlydrops.com'>
+            <a className='webCard' target='blank' href='https://awesome-jepsen-e757f5.netlify.app/'>
               <WebCard
                 alt='onlyDrops'
                 bgColor={'#1f2833'}
@@ -43,7 +43,10 @@ export default function apps() {
                 techColor='white'></WebCard>
             </a>
 
-            <a className='webCard' target='blank' href='https://moveand.work'>
+            <a
+              className='webCard'
+              target='blank'
+              href='https://awesome-nightingale-3b2756.netlify.app/'>
               <WebCard
                 alt='moveAndWork'
                 bgColor='linear-gradient(to right, #155799, #159957)'
