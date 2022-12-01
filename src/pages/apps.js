@@ -21,7 +21,7 @@ export default function apps() {
         <ContentLayout>
           <h1>creative and interactive</h1>
           <div className='webProjectsHolder'>
-            <a className='webCard' target='blank' href='sad-bardeen-282cfb.netlify.app'>
+            <a className='webCard' target='blank' href='https://sad-bardeen-282cfb.netlify.app/'>
               <WebCard
                 bgColor={'#2898d4'}
                 header={'SongColor'}
