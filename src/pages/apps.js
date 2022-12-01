@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import WebCard from '../components/WebCard';
 import Polarjam from '../images/webPolarJam.jpg';
+import PolarjamReal from '../images/polarjam.png';
 import OnlyDrops from '../images/webOnlyDrops.jpg';
 import MoveAndWork from '../images/webMoveAndWork.jpg';
 import Tapescape from '../images/tapescapeBig.jpg';
@@ -40,6 +41,21 @@ export default function apps() {
                 img={OnlyDrops}
                 tech={'Angular, Firebase'}
                 portfolio={false}
+                techColor='white'></WebCard>
+            </a>
+
+            <a
+              className='webCard'
+              target='blank'
+              href='https://brave-hawking-4ca8d1.netlify.app/jam/?565fda4a-439d-46cf-af8e-0a3c8c2bb95a'>
+              <WebCard
+                alt='polarJam'
+                bgColor='#58815f'
+                header={'PolarJam'}
+                desc={'Create music with friends around the globe!'}
+                img={PolarjamReal}
+                portfolio={false}
+                tech={'React'}
                 techColor='white'></WebCard>
             </a>
 
