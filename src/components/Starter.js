@@ -31,9 +31,18 @@ export default function HomeComp() {
             <div className={'andIMakeLeft  '}>Music</div>
           </Link>
         </div>
-        <h1 className='takeA'>Take a look:</h1>
+        <h1 className='takeA'>Selected</h1>
       </div>
       <div className='takeALook'>
+        <Link to='/music' className='cardFirst lastElement'>
+          <Card
+            bgColor={'#1f2833'}
+            header={'Canvai Music'}
+            desc={`Electro, House, Chill\nMusic on Youtube & Spotify`}
+            img={Canvai}
+            alt={'Electro, House, Chill\nMusic on Youtube & Spotify'}></Card>
+        </Link>
+
         <Link to='/apps' className='cardFirst'>
           <Card
             bgColor={'#2898d4'}
@@ -50,15 +59,6 @@ export default function HomeComp() {
             desc={'Experience a journey through a world that is controlled by music'}
             img={Tapescape}
             alt={'Experience a journey through a world that is controlled by music'}></Card>
-        </Link>
-
-        <Link to='/music' className='cardFirst lastElement'>
-          <Card
-            bgColor={'#1f2833'}
-            header={'Canvai'}
-            desc={`Electro, House, Chill\nMusic on Youtube & Spotify`}
-            img={Canvai}
-            alt={'Electro, House, Chill\nMusic on Youtube & Spotify'}></Card>
         </Link>
       </div>
     </>
