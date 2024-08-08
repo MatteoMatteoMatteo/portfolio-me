@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Matteo's Portfolio`,
+    title: `Canvai's Portfolio`,
     description: `A portfolio for my apps, games, videos and music`,
-    author: `Matteo Prock`,
+    author: `Canvai`,
   },
   plugins: [
     'gatsby-plugin-emotion',

@@ -27,7 +27,7 @@ export default function Navbar() {
     <nav className='navbar'>
       <div className='navbarWrapper'>
         <Link to='/' className='navbar-logo'>
-          matteoprock
+          canvai
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           menu
