@@ -14,7 +14,7 @@ export default function HomeComp() {
       </video> */}
 
       <div className='header2'>
-        <h1>My name is Canvai</h1>
+        <h1>Browse Projects</h1>
         <h1>and I make</h1>
         <div className='genres'>
           <Link to='/apps' style={{ textDecoration: 'none', color: 'white' }}>
