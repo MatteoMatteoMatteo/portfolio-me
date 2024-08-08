@@ -31,7 +31,7 @@ export default function HomeComp() {
             <div className={'andIMakeLeft  '}>Music</div>
           </Link>
         </div>
-        <h1 className='takeA'>Selected:</h1>
+        <h1 className='takeA'>Selected</h1>
       </div>
       <div className='takeALook'>
         <Link to='/music' className='cardFirst lastElement'>
