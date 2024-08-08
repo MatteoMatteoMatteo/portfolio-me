@@ -26,7 +26,7 @@ export default function about() {
               question or just want to chat, send me a message!
             </h3>
             <h3 style={{ fontSize: '1.4rem' }} className='aboutHolder lastAbout'>
-              m.prock@outlook.com
+              canvaimusic@gmail.com
             </h3>
           </div>
         </ContentLayout>
