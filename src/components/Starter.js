@@ -14,8 +14,8 @@ export default function HomeComp() {
       </video> */}
 
       <div className='header2'>
-        <h1>Browse Projects</h1>
-        <h1>and I make</h1>
+        <h1>Browse</h1>
+        <h1>Projects</h1>
         <div className='genres'>
           <Link to='/apps' style={{ textDecoration: 'none', color: 'white' }}>
             <div className={'andIMakeLeft '}>Web</div>
