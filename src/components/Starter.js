@@ -58,7 +58,7 @@ export default function HomeComp() {
             header={'TapeScape'}
             desc={'Experience a journey through a world that is controlled by music'}
             img={Tapescape}
-            alt={'Experience a journey through a world that is controlled by music'}></Card>
+            alt={'Experience a journey through a world controlled by music'}></Card>
         </Link>
       </div>
     </>
