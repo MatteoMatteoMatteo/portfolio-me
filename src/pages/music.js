@@ -17,11 +17,11 @@ export default function music() {
           <span>--> Unfinished Ideas</span>
         </Link>
 
-        <h1 style={{ padding: '0px 20px' }}>take a listen on Youtube or Spotify</h1>
+        {/* <h1 style={{ padding: '0px 20px' }}>take a listen on Youtube or Spotify</h1>
         <p className='beats'>
           10 years ago, I made my first song on a computer. Now, all my released music can be found
           on my youtube channel, here is a selection.
-        </p>
+        </p> */}
 
         <div class='video-container-wrapper-music'>
           <div class='video-container-music'>

@@ -25,9 +25,6 @@ export default function about() {
               Other than that I like to work on projects that I share here. <br></br>If you have any
               question or just want to chat, send me a message!
             </h3>
-            <h3 style={{ fontSize: '1.4rem' }} className='aboutHolder lastAbout'>
-              canvaimusic@gmail.com
-            </h3>
           </div>
         </ContentLayout>
       </Headline>

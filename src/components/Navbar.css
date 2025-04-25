@@ -29,7 +29,7 @@
 }
 
 .navbar-logo:hover {
-  color: var(--bg);
+  color: white;
   transform: translate(4px, 0px);
   transition: 300ms;
 }
@@ -60,8 +60,9 @@
 }
 
 .nav-links:hover {
-  color: var(--bg);
-  border-bottom: 5px var(--bg) solid;
+  /* border-bottom: 5px var(--bg) solid; */
+  transform: translate(4px, 0px);
+  transition: 300ms;
 }
 
 .nav-links-mobile {

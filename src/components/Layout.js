@@ -20,8 +20,6 @@ export default function Layout({ children }) {
         {children}
         <div style={{ marginBottom: '100px' }}></div>
       </div>
-
-      <Footer></Footer>
     </div>
   );
 }

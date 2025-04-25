@@ -19,7 +19,7 @@ export default function apps() {
       <Navbar></Navbar>
       <Headline headline={'Web Apps'}>
         <ContentLayout>
-          <h1>creative and interactive</h1>
+          {/* <h1>creative and interactive</h1> */}
           <div className='webProjectsHolder'>
             <a className='webCard' target='blank' href='https://sad-bardeen-282cfb.netlify.app/'>
               <WebCard
